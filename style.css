@@ -1,0 +1,228 @@
+/* Universal Styles */
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    font-family: 'Poppins';
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2,
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Navigation */
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(134deg, #001E34 0%, #00528E 100%);
+}
+
+.nav-image {
+    padding-left: 20px;
+}
+
+.nav-text {
+    display: flex;
+}
+
+.nav-text p a {
+    padding-right: 20px;
+    color: #fff;
+}
+
+/* Hero Section */
+
+.hero-section {
+    margin-top: 80px;
+    height: 500px;
+    width: 100%;
+    background-image: url(./assets/hero-bg.svg);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.hero-text {
+    height: 70%;
+}
+
+.hero-text ul {
+    list-style-type: none;
+}
+
+.hero-text h1,
+.hero-text h2 {
+    color: #fff;
+}
+
+.hero-image {
+    margin-bottom: -4px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero-button {
+    width: 240px;
+    height: 50px;
+    background-image: linear-gradient(180deg, #FFB155 0%, #FF8B04 100%);
+    margin: 10px 0;
+    border: 0 none;
+}
+
+.hero-button p {
+    color: #fff;
+}
+
+/* Video Section */
+
+.video-section {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.section-text {
+    text-align: center;
+}
+
+.videos {
+    margin-bottom: 9%;
+}
+
+.videos img {
+    padding: 0 20px;
+}
+
+/* Design Section */
+
+.design-section {
+    background-image: linear-gradient(136deg, #FFFFFF 0%, #F5F5F5 100%);
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+
+.design-examples {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.design-examples img {
+    padding: 0 40px;
+}
+
+/* Strategy Section */
+
+.strategy-section {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+
+.strategy-videos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.strategy-videos img {
+    padding: 0 40px;
+}
+
+/* CTA Section */
+
+.cta-section {
+    background-image: linear-gradient(136deg, #FFFFFF 0%, #F5F5F5 100%);
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+/* Modal */
+
+.display {
+    visibility: hidden;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background: #FFFFFF;
+    box-shadow: 0 2px 30px 0 rgba(0,35,61,0.53);
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.form-text {
+    margin: 0 auto;
+    width: 75%;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.single-line, .multi-line {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.single-line {
+    height: 35px;
+}
+
+.multi-line {
+    height: 200px;
+}
+
+.modal .hero-button {
+    margin: 20px 20px 20px 113px;
+}
